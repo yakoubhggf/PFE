@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+.hggf {
+  width: 95vw;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 10px;
+}
+
+.card .card-body div {
+  margin-bottom: 5px;
+}
+
+.cars-listing {
+  max-width: 100%;
+}
+
+.col-md-5 {
+  max-width: 30%;
+}
+
+
+.car-image {
+  max-width: 25%;
+}

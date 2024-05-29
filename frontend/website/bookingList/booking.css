@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+.reservation-client {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    padding-top: 10px;
+    column-gap: 10px;
+  }
+
+  img{
+      height: 200px;
+      object-fit: contain;
+  }
+  .card{
+      border: none;
+  }

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+h5,
+h3{
+  margin: 0;
+  font-size: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  padding-top: 10px;
+  column-gap: 10px;
+}
+.c-img {
+  height: 100%;
+  object-fit: contain;
+  width: 100px;
+}
+.c-item {
+  height: 250px;
+}
+#car-view {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+p {
+  margin: 0;
+}
+div[class*="col"] {
+  padding-left: 20px;
+}
+small {
+  font-size: 14px;
+}
+table {
+  margin-left: -5px;
+}
+.reservation-details > div {
+  margin-bottom: 1px;
+}
